@@ -157,7 +157,7 @@
 - 独自 Skill の出発点として使える
 - スキル単位のリリースツールチェーンと互換（独立 SemVer tag）
 
-リンク: [README](./skills/hello-world/README.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->_（まだリリースされていません）_<!-- DOWNLOAD:hello-world:end -->
+リンク: [README](./skills/hello-world/README.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->[Download v0.1.0 .zip](https://github.com/dctongsheng/douge-skills/releases/download/hello-world-v0.1.0/hello-world-0.1.0.zip)<!-- DOWNLOAD:hello-world:end -->
 
 ---
 

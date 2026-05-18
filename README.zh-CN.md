@@ -157,7 +157,7 @@
 - 适合作为自定义 Skill 的模板起点
 - 与发版工具链完全兼容（独立 SemVer tag）
 
-链接：[README](./skills/hello-world/README.zh-CN.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->_（暂未发布）_<!-- DOWNLOAD:hello-world:end -->
+链接：[README](./skills/hello-world/README.zh-CN.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->[下载 v0.1.0 .zip](https://github.com/dctongsheng/douge-skills/releases/download/hello-world-v0.1.0/hello-world-0.1.0.zip)<!-- DOWNLOAD:hello-world:end -->
 
 ---
 
