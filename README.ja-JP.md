@@ -31,12 +31,18 @@
 <br/><sub>ローカル知識ベース検索</sub>
 </td>
 </tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+<a href="#hello-world"><strong>hello-world</strong></a>
+<br/><sub>入門 / Hello World</sub>
+</td>
+</tr>
 </table>
 
 [![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#コントリビュート)
-[![Skills count](https://img.shields.io/badge/skills-4-orange?style=flat-square)](#skills-gallery)
+[![Skills count](https://img.shields.io/badge/skills-5-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
 
 [English](./README.md) · [中文文档](./README.zh-CN.md) · [日本語](./README.ja-JP.md)
@@ -138,6 +144,23 @@
 
 ---
 
+### [`hello-world`](./skills/hello-world)
+
+**カテゴリ:** 入門 / デモ  
+**用途:** Agent Skills のインストール確認、または本リポジトリの最小 Skill 構成の学習。
+
+`hello-world` は最小のサンプル Skill です。エージェントが挨拶し、必要に応じて `scripts/hello.mjs` を実行して `Hello, World!` を 1 行出力します。
+
+主な特徴:
+
+- `SKILL.md`、`manifest.json`、依存なしの Node スクリプトのみ
+- 独自 Skill の出発点として使える
+- スキル単位のリリースツールチェーンと互換（独立 SemVer tag）
+
+リンク: [README](./skills/hello-world/README.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->_（まだリリースされていません）_<!-- DOWNLOAD:hello-world:end -->
+
+---
+
 ## インストール
 
 サポートされているインストール方法は 5 つあります。自分のスタックに合うものを選んでください:
@@ -161,7 +184,7 @@
 自動検出し、スキルを適切なディレクトリにドロップする標準的な [`npx skills` CLI](https://www.npmjs.com/package/skills) を使用します。
 
 ```bash
-# 4 つのスキルすべてをインストール（最新）
+# 5 つのスキルすべてをインストール（最新）
 npx skills add dctongsheng/douge-skills
 
 # 1 つのスキルだけをインストール（最新）
@@ -208,6 +231,7 @@ npx skills remove kb-retriever  # アンインストール
 /plugin install web-design-skills@douge-skills
 /plugin install knowledge-base-skills@douge-skills
 /plugin install image-generation-skills@douge-skills
+/plugin install starter-skills@douge-skills
 ```
 
 プラグインパックは [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json) で宣言されています:

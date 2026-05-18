@@ -20,6 +20,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```
 skills/                    # 所有 Skill 源码
+├── hello-world/
 ├── web-video-presentation/
 ├── web-design-engineer/
 ├── gpt-image-2/

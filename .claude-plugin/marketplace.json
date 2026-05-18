@@ -4,8 +4,8 @@
     "name": "dctongsheng"
   },
   "metadata": {
-    "description": "Douge Skills — agent skills for web video presentations, visual web design, local knowledge-base retrieval, and GPT Image 2 image generation.",
-    "version": "0.4.0"
+    "description": "Douge Skills — agent skills for web video presentations, visual web design, local knowledge-base retrieval, GPT Image 2 image generation, and hello-world starter demo.",
+    "version": "0.4.1"
   },
   "plugins": [
     {
@@ -42,6 +42,15 @@
       "strict": false,
       "skills": [
         "./skills/gpt-image-2"
+      ]
+    },
+    {
+      "name": "starter-skills",
+      "description": "Minimal hello-world skill to verify installation and learn the SKILL.md layout.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/hello-world"
       ]
     }
   ]

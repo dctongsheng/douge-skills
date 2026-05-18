@@ -31,12 +31,18 @@
 <br/><sub>本地知识库检索</sub>
 </td>
 </tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+<a href="#hello-world"><strong>hello-world</strong></a>
+<br/><sub>入门示例 / Hello World</sub>
+</td>
+</tr>
 </table>
 
 [![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#贡献)
-[![Skills count](https://img.shields.io/badge/skills-4-orange?style=flat-square)](#skills-gallery)
+[![Skills count](https://img.shields.io/badge/skills-5-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
 
 [English](./README.md) · [中文文档](./README.zh-CN.md) · [日本語](./README.ja-JP.md)
@@ -138,6 +144,23 @@
 
 ---
 
+### [`hello-world`](./skills/hello-world)
+
+**类别：** 入门 / 示例  
+**适合：** 验证 Agent Skills 是否安装成功，或学习本仓库 Skill 的最小目录结构。
+
+`hello-world` 是最小的示例 Skill：Agent 会友好问候，并可运行 `scripts/hello.mjs` 输出一行 `Hello, World!` 以确认端到端链路正常。
+
+亮点：
+
+- 仅含 `SKILL.md`、`manifest.json` 与一个 Node 脚本，零依赖
+- 适合作为自定义 Skill 的模板起点
+- 与发版工具链完全兼容（独立 SemVer tag）
+
+链接：[README](./skills/hello-world/README.zh-CN.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->_（暂未发布）_<!-- DOWNLOAD:hello-world:end -->
+
+---
+
 ## 安装
 
 总共支持 5 种安装方式，按你的工作流选一个即可：
@@ -162,7 +185,7 @@
 的 Agent（Claude Code / Cursor / Codex / …）并把 Skill 放到对的目录。
 
 ```bash
-# 一次装上整个仓库（4 个 Skill），最新
+# 一次装上整个仓库（5 个 Skill），最新
 npx skills add dctongsheng/douge-skills
 
 # 只装某一个 Skill，最新
@@ -209,6 +232,7 @@ npx skills remove kb-retriever  # 卸载
 /plugin install web-design-skills@douge-skills
 /plugin install knowledge-base-skills@douge-skills
 /plugin install image-generation-skills@douge-skills
+/plugin install starter-skills@douge-skills
 ```
 
 插件包定义在 [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json)：

@@ -31,12 +31,18 @@
 <br/><sub>Local knowledge retrieval</sub>
 </td>
 </tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+<a href="#hello-world"><strong>hello-world</strong></a>
+<br/><sub>Getting started / Hello World</sub>
+</td>
+</tr>
 </table>
 
 [![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#contributing)
-[![Skills count](https://img.shields.io/badge/skills-4-orange?style=flat-square)](#skills-gallery)
+[![Skills count](https://img.shields.io/badge/skills-5-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
 
 [English](./README.md) · [中文文档](./README.zh-CN.md) · [日本語](./README.ja-JP.md)
@@ -138,6 +144,23 @@ Links: [README](./skills/kb-retriever/README.md) · [SKILL.md](./skills/kb-retri
 
 ---
 
+### [`hello-world`](./skills/hello-world)
+
+**Category:** Getting started / Demo  
+**Best for:** verifying that Agent Skills are wired correctly, or learning the minimal skill layout in this repo.
+
+`hello-world` is the smallest example skill: the agent greets you and can run `scripts/hello.mjs` to print a one-line `Hello, World!` confirmation.
+
+Highlights:
+
+- Only `SKILL.md`, `manifest.json`, and a zero-dependency Node script
+- A sensible starting point for your own skills
+- Fully compatible with the per-skill release toolchain (independent SemVer tag)
+
+Links: [README](./skills/hello-world/README.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->_(no release yet — coming soon)_<!-- DOWNLOAD:hello-world:end -->
+
+---
+
 ## Install
 
 There are five supported install paths. Pick the one that fits your stack:
@@ -162,7 +185,7 @@ which auto-detects your agent (Claude Code, Cursor, Codex, etc.) and drops the
 skill into the right directory.
 
 ```bash
-# Install all four skills (latest)
+# Install all five skills (latest)
 npx skills add dctongsheng/douge-skills
 
 # Install just one skill (latest)
@@ -211,6 +234,7 @@ more skills together:
 /plugin install web-design-skills@douge-skills
 /plugin install knowledge-base-skills@douge-skills
 /plugin install image-generation-skills@douge-skills
+/plugin install starter-skills@douge-skills
 ```
 
 Plugin packs are declared in [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json):
