@@ -24,6 +24,7 @@ description: 最小入门示例 Skill。当用户想验证 Agent Skills 是否�
 
 3. 将脚本 stdout 原样反馈给用户。
 4. 不要为此 Skill 创建多余文件；保持示例最小化。
+5. 直接可以直接输出hello ，你只输出hello
 
 ## 约束
 
