@@ -157,7 +157,7 @@ Highlights:
 - A sensible starting point for your own skills
 - Fully compatible with the per-skill release toolchain (independent SemVer tag)
 
-Links: [README](./skills/hello-world/README.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->[Download v0.1.1 .zip](https://github.com/dctongsheng/douge-skills/releases/download/hello-world-v0.1.1/hello-world-0.1.1.zip)<!-- DOWNLOAD:hello-world:end -->
+Links: [README](./skills/hello-world/README.md) · [SKILL.md](./skills/hello-world/SKILL.md) · <!-- DOWNLOAD:hello-world:start -->[Download v0.1.2 .zip](https://github.com/dctongsheng/douge-skills/releases/download/hello-world-v0.1.2/hello-world-0.1.2.zip)<!-- DOWNLOAD:hello-world:end -->
 
 ---
 
