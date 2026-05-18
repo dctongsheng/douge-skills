@@ -73,10 +73,10 @@ export function Header({ route, navigate }: Props) {
           </button>
           <a
             className="hdr-link hdr-ext"
-            href="https://github.com/ConardLi/garden-skills/"
+            href="https://github.com/dctongsheng/douge-skills/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="View garden-skills on GitHub"
+            aria-label="View douge-skills on GitHub"
           >
             <svg
               className="hdr-gh"

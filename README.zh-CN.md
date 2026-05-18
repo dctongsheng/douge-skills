@@ -1,8 +1,8 @@
 <div align="center">
 
-# Garden Skills
+# Douge Skills
 
-**花园老师的开源 [Agent Skills](https://support.claude.com/en/articles/12512176-what-are-skills) 集合，面向 Claude Code、Cursor、Codex 等所有支持 `SKILL.md` 格式的 AI 编程代理。**
+**Douge 开源的 [Agent Skills](https://support.claude.com/en/articles/12512176-what-are-skills) 集合，面向 Claude Code、Cursor、Codex 等所有支持 `SKILL.md` 格式的 AI 编程代理。**
 
 <a id="skills-gallery"></a>
 
@@ -33,8 +33,8 @@
 </tr>
 </table>
 
-[![License: MIT](https://img.shields.io/github/license/ConardLi/garden-skills?style=flat-square&color=blue)](./LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/ConardLi/garden-skills?style=flat-square)](https://github.com/ConardLi/garden-skills/stargazers)
+[![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#贡献)
 [![Skills count](https://img.shields.io/badge/skills-4-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
@@ -71,7 +71,7 @@
 - 基于主题 token 的视觉架构，内置从 `paper-press` 到 `terminal-green` 的多种设计语言
 - 脚手架产出 Vite + React + TypeScript 项目，并附带舞台原语与录屏指南
 
-链接：[README](./skills/web-video-presentation/README.zh-CN.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[下载 v1.1.5 .zip](https://github.com/ConardLi/garden-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
+链接：[README](./skills/web-video-presentation/README.zh-CN.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[下载 v1.1.5 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
 
 ---
 
@@ -92,7 +92,7 @@
 - 包含 inline React + Babel、CSS tokens、`oklch()` 配色、container queries、reduced-motion 等实现规则
 - 提供高级模式参考，覆盖设备框、幻灯片引擎、动画时间线、仪表盘等常见 Web 产物
 
-链接：[README](./skills/web-design-engineer/README.zh-CN.md) · [SKILL.md](./skills/web-design-engineer/SKILL.md) · [Website](./website/web-design-website) · [Demo](./demo/web-design-demo) · <!-- DOWNLOAD:web-design-engineer:start -->[下载 v1.1.0 .zip](https://github.com/ConardLi/garden-skills/releases/download/web-design-engineer-v1.1.0/web-design-engineer-1.1.0.zip)<!-- DOWNLOAD:web-design-engineer:end -->
+链接：[README](./skills/web-design-engineer/README.zh-CN.md) · [SKILL.md](./skills/web-design-engineer/SKILL.md) · [Website](./website/web-design-website) · [Demo](./demo/web-design-demo) · <!-- DOWNLOAD:web-design-engineer:start -->[下载 v1.1.0 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-design-engineer-v1.1.0/web-design-engineer-1.1.0.zip)<!-- DOWNLOAD:web-design-engineer:end -->
 
 ---
 
@@ -113,7 +113,7 @@
 - 同时覆盖图像生成和图像编辑，并配套专门工作流与脚本
 - Garden 模式下会把 prompt 与生成图片保存到 `garden-gpt-image-2/`，方便复用、审查和版本管理
 
-链接：[README](./skills/gpt-image-2/README.zh-CN.md) · [SKILL.md](./skills/gpt-image-2/SKILL.md) · [Website](./website/gpt-image2-website) · <!-- DOWNLOAD:gpt-image-2:start -->[下载 v1.0.3 .zip](https://github.com/ConardLi/garden-skills/releases/download/gpt-image-2-v1.0.3/gpt-image-2-1.0.3.zip)<!-- DOWNLOAD:gpt-image-2:end -->
+链接：[README](./skills/gpt-image-2/README.zh-CN.md) · [SKILL.md](./skills/gpt-image-2/SKILL.md) · [Website](./website/gpt-image2-website) · <!-- DOWNLOAD:gpt-image-2:start -->[下载 v1.0.3 .zip](https://github.com/dctongsheng/douge-skills/releases/download/gpt-image-2-v1.0.3/gpt-image-2-1.0.3.zip)<!-- DOWNLOAD:gpt-image-2:end -->
 
 ---
 
@@ -134,7 +134,7 @@
 - 最多 5 轮检索，让探索过程有边界
 - 内置 `grep`、`pdftotext`、`pdfplumber`、`pandas` 工作流，并强调答案来源
 
-链接：[README](./skills/kb-retriever/README.zh-CN.md) · [SKILL.md](./skills/kb-retriever/SKILL.md) · <!-- DOWNLOAD:kb-retriever:start -->[下载 v1.0.0 .zip](https://github.com/ConardLi/garden-skills/releases/download/kb-retriever-v1.0.0/kb-retriever-1.0.0.zip)<!-- DOWNLOAD:kb-retriever:end -->
+链接：[README](./skills/kb-retriever/README.zh-CN.md) · [SKILL.md](./skills/kb-retriever/SKILL.md) · <!-- DOWNLOAD:kb-retriever:start -->[下载 v1.0.0 .zip](https://github.com/dctongsheng/douge-skills/releases/download/kb-retriever-v1.0.0/kb-retriever-1.0.0.zip)<!-- DOWNLOAD:kb-retriever:end -->
 
 ---
 
@@ -163,16 +163,16 @@
 
 ```bash
 # 一次装上整个仓库（4 个 Skill），最新
-npx skills add ConardLi/garden-skills
+npx skills add dctongsheng/douge-skills
 
 # 只装某一个 Skill，最新
-npx skills add ConardLi/garden-skills -s web-design-engineer
+npx skills add dctongsheng/douge-skills -s web-design-engineer
 
 # 装到全局 (~/.skills) 而不是当前项目 (./.skills)
-npx skills add ConardLi/garden-skills -s gpt-image-2 --global
+npx skills add dctongsheng/douge-skills -s gpt-image-2 --global
 
 # 指定目标 Agent
-npx skills add ConardLi/garden-skills -s kb-retriever -a claude-code
+npx skills add dctongsheng/douge-skills -s kb-retriever -a claude-code
 ```
 
 > **默认就是 `main` 上的最新版本**，95% 的场景这就是你想要的——CLI 直接从源码
@@ -183,7 +183,7 @@ npx skills add ConardLi/garden-skills -s kb-retriever -a claude-code
 
 ```bash
 # 把某个 Skill 钉到具体的 release
-npx skills add ConardLi/garden-skills/tree/web-design-engineer-v1.0.0/skills/web-design-engineer
+npx skills add dctongsheng/douge-skills/tree/web-design-engineer-v1.0.0/skills/web-design-engineer
 ```
 
 每个 Skill 当前的钉版本 `.zip` URL 也直接挂在了上面"链接"那一行末尾的
@@ -204,11 +204,11 @@ npx skills remove kb-retriever  # 卸载
 订阅插件市场，按"包"安装一组相关的 Skill：
 
 ```bash
-/plugin marketplace add ConardLi/garden-skills
-/plugin install presentation-skills@garden-skills
-/plugin install web-design-skills@garden-skills
-/plugin install knowledge-base-skills@garden-skills
-/plugin install image-generation-skills@garden-skills
+/plugin marketplace add dctongsheng/douge-skills
+/plugin install presentation-skills@douge-skills
+/plugin install web-design-skills@douge-skills
+/plugin install knowledge-base-skills@douge-skills
+/plugin install image-generation-skills@douge-skills
 ```
 
 插件包定义在 [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json)：
@@ -224,7 +224,7 @@ npx skills remove kb-retriever  # 卸载
 
 每次正式发版都会把对应 Skill 打包成一个**不可变**的 `.zip`（附带
 SHA-256 校验文件）发到
-[GitHub Releases](https://github.com/ConardLi/garden-skills/releases)。
+[GitHub Releases](https://github.com/dctongsheng/douge-skills/releases)。
 适合 CI、Dockerfile、内网部署等需要"字节级可复现"的场景。
 
 ```bash
@@ -233,11 +233,11 @@ SKILL=web-design-engineer
 VERSION=1.0.0
 
 curl -fsSL -o "${SKILL}.zip" \
-  "https://github.com/ConardLi/garden-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip"
+  "https://github.com/dctongsheng/douge-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip"
 
 # 校验 SHA-256（无人值守安装时强烈建议）
 curl -fsSL -o "${SKILL}.zip.sha256" \
-  "https://github.com/ConardLi/garden-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip.sha256"
+  "https://github.com/dctongsheng/douge-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip.sha256"
 shasum -a 256 -c "${SKILL}.zip.sha256"
 
 # 解压到 Agent 的 skills 目录
@@ -247,7 +247,7 @@ unzip -q "${SKILL}.zip" -d .claude/skills/   # 或 .agents/skills/、.codex/skil
 如果你只想"永远拿最新"，也有一个跟着最近一次 release 走的 URL：
 
 ```bash
-https://github.com/ConardLi/garden-skills/releases/latest/download/<skill>-<version>.zip
+https://github.com/dctongsheng/douge-skills/releases/latest/download/<skill>-<version>.zip
 ```
 
 > **每个 Skill 当前版本的钉版本 URL 都直接列在 README 里**——见上面每个 Skill
@@ -258,10 +258,10 @@ https://github.com/ConardLi/garden-skills/releases/latest/download/<skill>-<vers
 `git clone` 整仓后再拷贝你要的 Skill。适合本地 fork、二次开发场景：
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cp -r garden-skills/skills/web-design-engineer  your-project/.claude/skills/
+git clone https://github.com/dctongsheng/douge-skills.git
+cp -r douge-skills/skills/web-design-engineer  your-project/.claude/skills/
 # Cursor / 通用 Agent：
-cp -r garden-skills/skills/web-design-engineer  your-project/.agents/skills/
+cp -r douge-skills/skills/web-design-engineer  your-project/.agents/skills/
 ```
 
 Agent 在下次扫描工作区时会自动发现。
@@ -271,14 +271,14 @@ Agent 在下次扫描工作区时会自动发现。
 如果你想在更大的项目里把本仓库作为依赖来跟踪上游更新：
 
 ```bash
-git submodule add https://github.com/ConardLi/garden-skills.git vendor/garden-skills
-ln -s ../../vendor/garden-skills/skills/web-design-engineer .claude/skills/web-design-engineer
+git submodule add https://github.com/dctongsheng/douge-skills.git vendor/douge-skills
+ln -s ../../vendor/douge-skills/skills/web-design-engineer .claude/skills/web-design-engineer
 ```
 
 为了可复现，建议把 submodule 钉到某个 release tag：
 
 ```bash
-cd vendor/garden-skills
+cd vendor/douge-skills
 git checkout web-design-engineer-v1.0.0
 ```
 
@@ -331,8 +331,8 @@ Agent 会根据 frontmatter 里的 `description` 决定要不要激活这个 Ski
 快速上手：
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cd garden-skills
+git clone https://github.com/dctongsheng/douge-skills.git
+cd douge-skills
 npm run list      # 列出所有 Skill + manifest 状态
 npm run validate  # 跑一遍和 PR CI 完全一样的检查
 ```
@@ -351,4 +351,4 @@ npm run validate  # 跑一遍和 PR CI 完全一样的检查
 
 ## 许可证
 
-[MIT](./LICENSE) © [ConardLi](https://github.com/ConardLi)
+[MIT](./LICENSE) © [dctongsheng](https://github.com/dctongsheng)

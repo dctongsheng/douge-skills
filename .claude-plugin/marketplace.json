@@ -1,11 +1,11 @@
 {
-  "name": "garden-skills",
+  "name": "douge-skills",
   "owner": {
-    "name": "ConardLi"
+    "name": "dctongsheng"
   },
   "metadata": {
-    "description": "A curated collection of agent skills covering web video presentations, visual web design, local knowledge-base retrieval, and GPT Image 2 image generation.",
-    "version": "0.3.0"
+    "description": "Douge Skills — agent skills for web video presentations, visual web design, local knowledge-base retrieval, and GPT Image 2 image generation.",
+    "version": "0.4.0"
   },
   "plugins": [
     {

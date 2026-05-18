@@ -25,8 +25,8 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cd garden-skills
+git clone https://github.com/dctongsheng/douge-skills.git
+cd douge-skills
 node --version    # 必须 >= 20
 
 npm run list      # 列出所有 Skill + manifest 状态
@@ -118,7 +118,7 @@ description: 用一句话清楚说明这个 Skill 是干什么的、什么时候
   "version": "1.0.0",
   "category": "Design / Frontend",
   "description": "做什么的、适合什么场景。会显示在安装界面里。",
-  "homepage": "https://github.com/ConardLi/garden-skills/tree/main/skills/my-skill",
+  "homepage": "https://github.com/dctongsheng/douge-skills/tree/main/skills/my-skill",
   "compat": [
     "claude-code",
     "claude-ai",
@@ -225,7 +225,7 @@ gh run list --workflow=release-skill.yml
 git pull origin main
 ```
 
-跑完之后 `https://github.com/ConardLi/garden-skills/releases` 下面就有 4 个
+跑完之后 `https://github.com/dctongsheng/douge-skills/releases` 下面就有 4 个
 release，每个带 zip + sha256 + 自动 changelog，README 的下载链接也会指向它们。
 
 ---

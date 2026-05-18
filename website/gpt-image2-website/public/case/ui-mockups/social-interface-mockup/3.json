@@ -13,9 +13,9 @@
   "post": {
     "author": {
       "avatar": "使用提供的 code 花园风格头像（红底 + </> + 花朵）",
-      "display_name": "花园老师",
+      "display_name": "Douge",
       "verified_badge": false,
-      "handle": "@ConardLi"
+      "handle": "@dctongsheng"
     },
     "content": {
       "text": "This might be big.\n\nI was experimenting with Claude Opus 4.7 last night and managed to get consistent structured hints about its internal system behavior.\n\n不是直接泄露，但已经接近“边界”了。\n\nIf you know prompt engineering, you know why this matters.\n\nThread below 👇",
@@ -56,7 +56,7 @@
   "constraints": {
     "must_feel": "像真实 AI 工程师发现边界行为并在 X 引发讨论，官方迅速回应",
     "must_keep": [
-      "花园老师为发帖主体",
+      "Douge 为发帖主体",
       "英文为主但夹杂中文情绪句",
       "Anthropic 官方账号带金色认证回复",
       "整体有“这事可能不小”的氛围"

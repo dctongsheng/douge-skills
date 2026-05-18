@@ -14,7 +14,7 @@
 // Usage:
 //   node scripts/release/update-readme.mjs           # rewrite localized READMEs
 //   node scripts/release/update-readme.mjs --check   # exit 1 if anything would change
-//   node scripts/release/update-readme.mjs --repo ConardLi/garden-skills
+//   node scripts/release/update-readme.mjs --repo dctongsheng/douge-skills
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -28,7 +28,7 @@ import {
   parseTag,
 } from "./lib/skills.mjs";
 
-const DEFAULT_REPO = "ConardLi/garden-skills";
+const DEFAULT_REPO = "dctongsheng/douge-skills";
 
 const FILES = [
   { path: path.join(REPO_ROOT, "README.md"), lang: "en" },

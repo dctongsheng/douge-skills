@@ -1,6 +1,6 @@
 <div align="center">
 
-# Garden Skills
+# Douge Skills
 
 **A curated collection of production-ready [Agent Skills](https://support.claude.com/en/articles/12512176-what-are-skills) for Claude Code, Cursor, Codex, and other AI coding agents.**
 
@@ -33,8 +33,8 @@
 </tr>
 </table>
 
-[![License: MIT](https://img.shields.io/github/license/ConardLi/garden-skills?style=flat-square&color=blue)](./LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/ConardLi/garden-skills?style=flat-square)](https://github.com/ConardLi/garden-skills/stargazers)
+[![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#contributing)
 [![Skills count](https://img.shields.io/badge/skills-4-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
@@ -71,7 +71,7 @@ Highlights:
 - Theme-token architecture with multiple visual languages, from `paper-press` to `terminal-green`
 - Scaffolded Vite + React + TypeScript project with reusable stage primitives and recording guidance
 
-Links: [README](./skills/web-video-presentation/README.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[Download v1.1.5 .zip](https://github.com/ConardLi/garden-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
+Links: [README](./skills/web-video-presentation/README.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[Download v1.1.5 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
 
 ---
 
@@ -92,7 +92,7 @@ Highlights:
 - Includes practical implementation rules for inline React + Babel, CSS tokens, `oklch()` color work, container queries, and reduced-motion handling
 - Ships an advanced patterns reference for device frames, slide engines, animation timelines, dashboards, and other reusable web artifacts
 
-Links: [README](./skills/web-design-engineer/README.md) · [SKILL.md](./skills/web-design-engineer/SKILL.md) · [Website](./website/web-design-website) · [Demo](./demo/web-design-demo) · <!-- DOWNLOAD:web-design-engineer:start -->[Download v1.1.0 .zip](https://github.com/ConardLi/garden-skills/releases/download/web-design-engineer-v1.1.0/web-design-engineer-1.1.0.zip)<!-- DOWNLOAD:web-design-engineer:end -->
+Links: [README](./skills/web-design-engineer/README.md) · [SKILL.md](./skills/web-design-engineer/SKILL.md) · [Website](./website/web-design-website) · [Demo](./demo/web-design-demo) · <!-- DOWNLOAD:web-design-engineer:start -->[Download v1.1.0 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-design-engineer-v1.1.0/web-design-engineer-1.1.0.zip)<!-- DOWNLOAD:web-design-engineer:end -->
 
 ---
 
@@ -113,7 +113,7 @@ Highlights:
 - Covers both image generation and image editing through dedicated workflows and scripts
 - Saves prompts and generated images under `garden-gpt-image-2/` in Garden mode for reuse, review, and versioning
 
-Links: [README](./skills/gpt-image-2/README.md) · [SKILL.md](./skills/gpt-image-2/SKILL.md) · [Website](./website/gpt-image2-website) · <!-- DOWNLOAD:gpt-image-2:start -->[Download v1.0.3 .zip](https://github.com/ConardLi/garden-skills/releases/download/gpt-image-2-v1.0.3/gpt-image-2-1.0.3.zip)<!-- DOWNLOAD:gpt-image-2:end -->
+Links: [README](./skills/gpt-image-2/README.md) · [SKILL.md](./skills/gpt-image-2/SKILL.md) · [Website](./website/gpt-image2-website) · <!-- DOWNLOAD:gpt-image-2:start -->[Download v1.0.3 .zip](https://github.com/dctongsheng/douge-skills/releases/download/gpt-image-2-v1.0.3/gpt-image-2-1.0.3.zip)<!-- DOWNLOAD:gpt-image-2:end -->
 
 ---
 
@@ -134,7 +134,7 @@ Highlights:
 - Bounds retrieval to at most 5 search rounds so exploration stays controlled
 - Includes workflows for `grep`, `pdftotext`, `pdfplumber`, and `pandas`, with source-aware answer formatting
 
-Links: [README](./skills/kb-retriever/README.md) · [SKILL.md](./skills/kb-retriever/SKILL.md) · <!-- DOWNLOAD:kb-retriever:start -->[Download v1.0.0 .zip](https://github.com/ConardLi/garden-skills/releases/download/kb-retriever-v1.0.0/kb-retriever-1.0.0.zip)<!-- DOWNLOAD:kb-retriever:end -->
+Links: [README](./skills/kb-retriever/README.md) · [SKILL.md](./skills/kb-retriever/SKILL.md) · <!-- DOWNLOAD:kb-retriever:start -->[Download v1.0.0 .zip](https://github.com/dctongsheng/douge-skills/releases/download/kb-retriever-v1.0.0/kb-retriever-1.0.0.zip)<!-- DOWNLOAD:kb-retriever:end -->
 
 ---
 
@@ -163,16 +163,16 @@ skill into the right directory.
 
 ```bash
 # Install all four skills (latest)
-npx skills add ConardLi/garden-skills
+npx skills add dctongsheng/douge-skills
 
 # Install just one skill (latest)
-npx skills add ConardLi/garden-skills -s web-design-engineer
+npx skills add dctongsheng/douge-skills -s web-design-engineer
 
 # Install globally (~/.skills) instead of per-project (./.skills)
-npx skills add ConardLi/garden-skills -s gpt-image-2 --global
+npx skills add dctongsheng/douge-skills -s gpt-image-2 --global
 
 # Target a specific agent
-npx skills add ConardLi/garden-skills -s kb-retriever -a claude-code
+npx skills add dctongsheng/douge-skills -s kb-retriever -a claude-code
 ```
 
 > **Defaults to the latest commit on `main`.** That's what you want 95% of the
@@ -184,7 +184,7 @@ this points at the exact commit a release was cut from:
 
 ```bash
 # Pin one skill to a specific release
-npx skills add ConardLi/garden-skills/tree/web-design-engineer-v1.0.0/skills/web-design-engineer
+npx skills add dctongsheng/douge-skills/tree/web-design-engineer-v1.0.0/skills/web-design-engineer
 ```
 
 For each skill, the current pinned `.zip` URL is also shown inline in its
@@ -206,11 +206,11 @@ can subscribe to the marketplace and install plugin packs that bundle one or
 more skills together:
 
 ```bash
-/plugin marketplace add ConardLi/garden-skills
-/plugin install presentation-skills@garden-skills
-/plugin install web-design-skills@garden-skills
-/plugin install knowledge-base-skills@garden-skills
-/plugin install image-generation-skills@garden-skills
+/plugin marketplace add dctongsheng/douge-skills
+/plugin install presentation-skills@douge-skills
+/plugin install web-design-skills@douge-skills
+/plugin install knowledge-base-skills@douge-skills
+/plugin install image-generation-skills@douge-skills
 ```
 
 Plugin packs are declared in [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json):
@@ -225,7 +225,7 @@ Plugin packs are declared in [`.claude-plugin/marketplace.json`](./.claude-plugi
 ### Option C · Pinned `.zip` from Releases
 
 Every formal release publishes an immutable `.zip` (with a SHA-256 checksum) to
-[GitHub Releases](https://github.com/ConardLi/garden-skills/releases). Pin to
+[GitHub Releases](https://github.com/dctongsheng/douge-skills/releases). Pin to
 this from CI, Dockerfiles, or air-gapped installers when you need the exact
 bytes to never move under you.
 
@@ -235,11 +235,11 @@ SKILL=web-design-engineer
 VERSION=1.0.0
 
 curl -fsSL -o "${SKILL}.zip" \
-  "https://github.com/ConardLi/garden-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip"
+  "https://github.com/dctongsheng/douge-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip"
 
 # Verify the checksum (highly recommended for unattended installs)
 curl -fsSL -o "${SKILL}.zip.sha256" \
-  "https://github.com/ConardLi/garden-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip.sha256"
+  "https://github.com/dctongsheng/douge-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip.sha256"
 shasum -a 256 -c "${SKILL}.zip.sha256"
 
 # Drop the folder into the agent's skills directory
@@ -249,7 +249,7 @@ unzip -q "${SKILL}.zip" -d .claude/skills/   # or .agents/skills/, .codex/skills
 A floating "always-latest" URL is also available — useful for one-off installs:
 
 ```bash
-https://github.com/ConardLi/garden-skills/releases/latest/download/<skill>-<version>.zip
+https://github.com/dctongsheng/douge-skills/releases/latest/download/<skill>-<version>.zip
 ```
 
 > **Pinned URLs for every skill are listed inline in this README** — see the
@@ -262,10 +262,10 @@ Clone the repo and copy the skill folder you want — handy if you want to fork
 or hack on the skill itself.
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cp -r garden-skills/skills/web-design-engineer  your-project/.claude/skills/
+git clone https://github.com/dctongsheng/douge-skills.git
+cp -r douge-skills/skills/web-design-engineer  your-project/.claude/skills/
 # Cursor / generic agent:
-cp -r garden-skills/skills/web-design-engineer  your-project/.agents/skills/
+cp -r douge-skills/skills/web-design-engineer  your-project/.agents/skills/
 ```
 
 The agent discovers the skill the next time it scans the workspace.
@@ -275,14 +275,14 @@ The agent discovers the skill the next time it scans the workspace.
 For vendoring into a larger project where you want to track upstream updates:
 
 ```bash
-git submodule add https://github.com/ConardLi/garden-skills.git vendor/garden-skills
-ln -s ../../vendor/garden-skills/skills/web-design-engineer .claude/skills/web-design-engineer
+git submodule add https://github.com/dctongsheng/douge-skills.git vendor/douge-skills
+ln -s ../../vendor/douge-skills/skills/web-design-engineer .claude/skills/web-design-engineer
 ```
 
 Pin to a release tag for reproducibility:
 
 ```bash
-cd vendor/garden-skills
+cd vendor/douge-skills
 git checkout web-design-engineer-v1.0.0
 ```
 
@@ -337,8 +337,8 @@ Read that first if you want to add a skill or cut a release.
 Quick orientation:
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cd garden-skills
+git clone https://github.com/dctongsheng/douge-skills.git
+cd douge-skills
 npm run list      # show all skills + manifest status
 npm run validate  # the same check CI runs on every PR
 ```
@@ -357,4 +357,4 @@ This collection stands on the shoulders of:
 
 ## License
 
-[MIT](./LICENSE) © [ConardLi](https://github.com/ConardLi)
+[MIT](./LICENSE) © [dctongsheng](https://github.com/dctongsheng)

@@ -26,8 +26,8 @@ behind this monorepo.
 ## Quick start
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cd garden-skills
+git clone https://github.com/dctongsheng/douge-skills.git
+cd douge-skills
 node --version    # must be >= 20
 
 npm run list      # show all skills + manifest status
@@ -120,7 +120,7 @@ Detailed instructions, examples, and constraints go here.
   "version": "1.0.0",
   "category": "Design / Frontend",
   "description": "What it does, what it's good for. Shown in install UIs.",
-  "homepage": "https://github.com/ConardLi/garden-skills/tree/main/skills/my-skill",
+  "homepage": "https://github.com/dctongsheng/douge-skills/tree/main/skills/my-skill",
   "compat": [
     "claude-code",
     "claude-ai",

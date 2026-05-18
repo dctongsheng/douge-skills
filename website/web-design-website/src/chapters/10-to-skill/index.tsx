@@ -123,7 +123,7 @@ function ToSkill({ localStep }: ChapterContext) {
                 <div className="ts__card-body">
                   <div className="ts__card-avatar">{['F', 'G', 'H'][i]}</div>
                   <div className="ts__card-info">
-                    <div className="ts__card-name">花园老师 #{n}</div>
+                    <div className="ts__card-name">Douge #{n}</div>
                     <div className="ts__card-mail">flower-{i + 1}@anthropic.user</div>
                     <div className="ts__card-plan">
                       <span className="ts__card-plan-tag">Pro</span>

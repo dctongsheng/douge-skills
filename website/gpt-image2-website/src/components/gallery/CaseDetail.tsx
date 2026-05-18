@@ -277,10 +277,10 @@ export function CaseDetail({ id, navigate }: Props) {
                   <div className="cd-template-actions">
                     <a
                       className="cd-act cd-act-ghost"
-                      href={`https://github.com/ConardLi/garden-skills/blob/main/skills/gpt-image-2/${tpl.md_path}`}
+                      href={`https://github.com/dctongsheng/douge-skills/blob/main/skills/gpt-image-2/${tpl.md_path}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      title="在 garden-skills 仓库中查看模板原文"
+                      title="在 douge-skills 仓库中查看模板原文"
                     >
                       <span aria-hidden="true">↗</span>
                       GitHub

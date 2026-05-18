@@ -26,8 +26,8 @@
 ## クイックスタート
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cd garden-skills
+git clone https://github.com/dctongsheng/douge-skills.git
+cd douge-skills
 node --version    # >= 20 が必要
 
 npm run list      # すべてのスキル + マニフェストのステータスを表示
@@ -120,7 +120,7 @@ description: このスキルが何をして、いつ使うかを明確に説明�
   "version": "1.0.0",
   "category": "Design / Frontend",
   "description": "このスキルが何をして、何に向いているか。インストール UI に表示されます。",
-  "homepage": "https://github.com/ConardLi/garden-skills/tree/main/skills/my-skill",
+  "homepage": "https://github.com/dctongsheng/douge-skills/tree/main/skills/my-skill",
   "compat": [
     "claude-code",
     "claude-ai",

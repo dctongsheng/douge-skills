@@ -10,7 +10,7 @@
 [![React](https://img.shields.io/badge/React-19-149ECA?style=flat-square&logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Companion: garden-skills](https://img.shields.io/badge/Skill-garden--skills-0A6E96?style=flat-square)](https://github.com/ConardLi/garden-skills)
+[![Companion: douge-skills](https://img.shields.io/badge/Skill-douge--skills-0A6E96?style=flat-square)](https://github.com/dctongsheng/douge-skills)
 
 </div>
 
@@ -26,7 +26,7 @@
 
 - 高清成品图
 - **完整原始 prompt**（一字不动可复制）
-- 它属于哪个 [Skill](https://github.com/ConardLi/garden-skills) 模板，模板原文是什么
+- 它属于哪个 [Skill](https://github.com/dctongsheng/douge-skills) 模板，模板原文是什么
 - 「如果用对话怎么从零调出这张图」的完整对话示例
 
 它既是一份**学习材料**（看着就能学会怎么写 prompt），也是一份可以**直接 fork 当作"私人 prompt 库"**的工程脚手架。
@@ -62,7 +62,7 @@
 | 项目 | 数量 | 说明 |
 | --- | ---: | --- |
 | Categories | 17 | UI / 产品 / 海报 / 人物 / 信息图 / 学术 / 技术架构图 / 编辑工作流 / … |
-| Templates | 79 | 每个模板对应 [garden-skills](https://github.com/ConardLi/garden-skills) 中的一个 Skill 子模块 |
+| Templates | 79 | 每个模板对应 [douge-skills](https://github.com/dctongsheng/douge-skills) 中的一个 Skill 子模块 |
 | Cases | 161 | 每条都包含可直接喂给模型的 prompt + 真实出图 |
 
 数字来自当前仓库的 `src/data/cases.json`，每次 `npm run build:data` 都会刷新。
@@ -203,14 +203,14 @@ JSON 案例文件期望字段：
 - [ ] 站内全文搜索（FlexSearch / lunr）
 - [ ] 暗色模式 / 主题切换
 - [ ] i18n（中文 / English 双语切换）
-- [ ] 与 `garden-skills` 自动同步（CI 拉取最新 Skill MD）
+- [ ] 与 `douge-skills` 自动同步（CI 拉取最新 Skill MD）
 - [ ] 单测（Vitest）+ 视觉回归（Playwright + Storycap）
 
 欢迎 PR / Issue 一起补完。
 
 ## 鸣谢
 
-- 模板与 Skill 设计：[ConardLi/garden-skills](https://github.com/ConardLi/garden-skills)
+- 模板与 Skill 设计：[dctongsheng/douge-skills](https://github.com/dctongsheng/douge-skills)
 - 字体：[Instrument Serif](https://fonts.google.com/specimen/Instrument+Serif) / [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) / [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - 灵感来源：OpenAI GPT‑Image‑2 系统报告与开发者社区里的优秀 prompt 实践
 

@@ -57,12 +57,12 @@ export function Footer({ navigate }: Props) {
             <span className="ftr-meta-sep" />
             <a
               className="ftr-meta-link"
-              href="https://github.com/ConardLi/garden-skills"
+              href="https://github.com/dctongsheng/douge-skills"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Powered by ConardLi/garden-skills"
+              aria-label="Powered by dctongsheng/douge-skills"
             >
-              POWERED BY <span className="ftr-meta-link-em">garden-skills</span>
+              POWERED BY <span className="ftr-meta-link-em">douge-skills</span>
             </a>
             <span className="ftr-meta-sep" />
             <span>2026 EDITION</span>

@@ -1,6 +1,6 @@
 <div align="center">
 
-# Garden Skills
+# Douge Skills
 
 **Claude Code、Cursor、Codex、その他の AI コーディングエージェント向けに、本番環境ですぐに使える [Agent Skills](https://support.claude.com/en/articles/12512176-what-are-skills) を厳選したコレクション。**
 
@@ -33,8 +33,8 @@
 </tr>
 </table>
 
-[![License: MIT](https://img.shields.io/github/license/ConardLi/garden-skills?style=flat-square&color=blue)](./LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/ConardLi/garden-skills?style=flat-square)](https://github.com/ConardLi/garden-skills/stargazers)
+[![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#コントリビュート)
 [![Skills count](https://img.shields.io/badge/skills-4-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
@@ -71,7 +71,7 @@
 - `paper-press` から `terminal-green` まで複数のビジュアル言語を持つテーマトークンアーキテクチャ
 - 再利用可能なステージプリミティブと録画ガイダンスを備えた Vite + React + TypeScript プロジェクトのスキャフォールド
 
-リンク: [README](./skills/web-video-presentation/README.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[Download v1.1.5 .zip](https://github.com/ConardLi/garden-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
+リンク: [README](./skills/web-video-presentation/README.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[Download v1.1.5 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
 
 ---
 
@@ -92,7 +92,7 @@
 - インライン React + Babel、CSS トークン、`oklch()` カラー処理、コンテナクエリ、reduced-motion 対応の実装ルールを含む
 - デバイスフレーム、スライドエンジン、アニメーションタイムライン、ダッシュボード、その他の再利用可能な Web 成果物のための高度なパターンリファレンスを同梱
 
-リンク: [README](./skills/web-design-engineer/README.md) · [SKILL.md](./skills/web-design-engineer/SKILL.md) · [Website](./website/web-design-website) · [Demo](./demo/web-design-demo) · <!-- DOWNLOAD:web-design-engineer:start -->[Download v1.1.0 .zip](https://github.com/ConardLi/garden-skills/releases/download/web-design-engineer-v1.1.0/web-design-engineer-1.1.0.zip)<!-- DOWNLOAD:web-design-engineer:end -->
+リンク: [README](./skills/web-design-engineer/README.md) · [SKILL.md](./skills/web-design-engineer/SKILL.md) · [Website](./website/web-design-website) · [Demo](./demo/web-design-demo) · <!-- DOWNLOAD:web-design-engineer:start -->[Download v1.1.0 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-design-engineer-v1.1.0/web-design-engineer-1.1.0.zip)<!-- DOWNLOAD:web-design-engineer:end -->
 
 ---
 
@@ -113,7 +113,7 @@
 - 専用のワークフローとスクリプトを通じて、画像生成と画像編集の両方をカバー
 - Garden モードでは、再利用、レビュー、バージョン管理のためにプロンプトと生成画像を `garden-gpt-image-2/` 配下に保存
 
-リンク: [README](./skills/gpt-image-2/README.md) · [SKILL.md](./skills/gpt-image-2/SKILL.md) · [Website](./website/gpt-image2-website) · <!-- DOWNLOAD:gpt-image-2:start -->[Download v1.0.3 .zip](https://github.com/ConardLi/garden-skills/releases/download/gpt-image-2-v1.0.3/gpt-image-2-1.0.3.zip)<!-- DOWNLOAD:gpt-image-2:end -->
+リンク: [README](./skills/gpt-image-2/README.md) · [SKILL.md](./skills/gpt-image-2/SKILL.md) · [Website](./website/gpt-image2-website) · <!-- DOWNLOAD:gpt-image-2:start -->[Download v1.0.3 .zip](https://github.com/dctongsheng/douge-skills/releases/download/gpt-image-2-v1.0.3/gpt-image-2-1.0.3.zip)<!-- DOWNLOAD:gpt-image-2:end -->
 
 ---
 
@@ -134,7 +134,7 @@
 - 検索を最大 5 ラウンドに制限し、探索を制御された範囲に保つ
 - `grep`、`pdftotext`、`pdfplumber`、`pandas` のワークフローと、出典を意識した回答フォーマットを含む
 
-リンク: [README](./skills/kb-retriever/README.md) · [SKILL.md](./skills/kb-retriever/SKILL.md) · <!-- DOWNLOAD:kb-retriever:start -->[Download v1.0.0 .zip](https://github.com/ConardLi/garden-skills/releases/download/kb-retriever-v1.0.0/kb-retriever-1.0.0.zip)<!-- DOWNLOAD:kb-retriever:end -->
+リンク: [README](./skills/kb-retriever/README.md) · [SKILL.md](./skills/kb-retriever/SKILL.md) · <!-- DOWNLOAD:kb-retriever:start -->[Download v1.0.0 .zip](https://github.com/dctongsheng/douge-skills/releases/download/kb-retriever-v1.0.0/kb-retriever-1.0.0.zip)<!-- DOWNLOAD:kb-retriever:end -->
 
 ---
 
@@ -162,16 +162,16 @@
 
 ```bash
 # 4 つのスキルすべてをインストール（最新）
-npx skills add ConardLi/garden-skills
+npx skills add dctongsheng/douge-skills
 
 # 1 つのスキルだけをインストール（最新）
-npx skills add ConardLi/garden-skills -s web-design-engineer
+npx skills add dctongsheng/douge-skills -s web-design-engineer
 
 # プロジェクト単位（./.skills）ではなくグローバル（~/.skills）にインストール
-npx skills add ConardLi/garden-skills -s gpt-image-2 --global
+npx skills add dctongsheng/douge-skills -s gpt-image-2 --global
 
 # 特定のエージェントをターゲットにする
-npx skills add ConardLi/garden-skills -s kb-retriever -a claude-code
+npx skills add dctongsheng/douge-skills -s kb-retriever -a claude-code
 ```
 
 > **デフォルトは `main` の最新コミット。** これが 95% の場合に求められるものです。
@@ -182,7 +182,7 @@ npx skills add ConardLi/garden-skills -s kb-retriever -a claude-code
 
 ```bash
 # 1 つのスキルを特定のリリースに固定
-npx skills add ConardLi/garden-skills/tree/web-design-engineer-v1.0.0/skills/web-design-engineer
+npx skills add dctongsheng/douge-skills/tree/web-design-engineer-v1.0.0/skills/web-design-engineer
 ```
 
 各スキルについて、現在のバージョン固定 `.zip` URL は上記の
@@ -203,11 +203,11 @@ npx skills remove kb-retriever  # アンインストール
 マーケットプレイスを購読して、1 つ以上のスキルをバンドルしたプラグインパックをインストールできます:
 
 ```bash
-/plugin marketplace add ConardLi/garden-skills
-/plugin install presentation-skills@garden-skills
-/plugin install web-design-skills@garden-skills
-/plugin install knowledge-base-skills@garden-skills
-/plugin install image-generation-skills@garden-skills
+/plugin marketplace add dctongsheng/douge-skills
+/plugin install presentation-skills@douge-skills
+/plugin install web-design-skills@douge-skills
+/plugin install knowledge-base-skills@douge-skills
+/plugin install image-generation-skills@douge-skills
 ```
 
 プラグインパックは [`.claude-plugin/marketplace.json`](./.claude-plugin/marketplace.json) で宣言されています:
@@ -222,7 +222,7 @@ npx skills remove kb-retriever  # アンインストール
 ### 方法 C · Releases のバージョン固定 `.zip`
 
 正式なリリースごとに、不変の `.zip`（SHA-256 チェックサム付き）が
-[GitHub Releases](https://github.com/ConardLi/garden-skills/releases) に公開されます。
+[GitHub Releases](https://github.com/dctongsheng/douge-skills/releases) に公開されます。
 正確なバイト列が後から変わらないことを保証する必要がある場合は、CI、Dockerfile、
 エアギャップインストーラからこれにピン留めしてください。
 
@@ -232,11 +232,11 @@ SKILL=web-design-engineer
 VERSION=1.0.0
 
 curl -fsSL -o "${SKILL}.zip" \
-  "https://github.com/ConardLi/garden-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip"
+  "https://github.com/dctongsheng/douge-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip"
 
 # チェックサムを検証（無人インストールでは強く推奨）
 curl -fsSL -o "${SKILL}.zip.sha256" \
-  "https://github.com/ConardLi/garden-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip.sha256"
+  "https://github.com/dctongsheng/douge-skills/releases/download/${SKILL}-v${VERSION}/${SKILL}-${VERSION}.zip.sha256"
 shasum -a 256 -c "${SKILL}.zip.sha256"
 
 # エージェントのスキルディレクトリにフォルダを展開
@@ -246,7 +246,7 @@ unzip -q "${SKILL}.zip" -d .claude/skills/   # または .agents/skills/、.code
 フローティング「常に最新」の URL も利用可能で、ワンオフのインストールに便利です:
 
 ```bash
-https://github.com/ConardLi/garden-skills/releases/latest/download/<skill>-<version>.zip
+https://github.com/dctongsheng/douge-skills/releases/latest/download/<skill>-<version>.zip
 ```
 
 > **すべてのスキルのバージョン固定 URL は、この README にインラインでリストされています** -
@@ -259,10 +259,10 @@ https://github.com/ConardLi/garden-skills/releases/latest/download/<skill>-<vers
 フォークまたはハックしたい場合に便利です。
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cp -r garden-skills/skills/web-design-engineer  your-project/.claude/skills/
+git clone https://github.com/dctongsheng/douge-skills.git
+cp -r douge-skills/skills/web-design-engineer  your-project/.claude/skills/
 # Cursor / 汎用エージェント:
-cp -r garden-skills/skills/web-design-engineer  your-project/.agents/skills/
+cp -r douge-skills/skills/web-design-engineer  your-project/.agents/skills/
 ```
 
 次回エージェントがワークスペースをスキャンしたときに、スキルが検出されます。
@@ -272,14 +272,14 @@ cp -r garden-skills/skills/web-design-engineer  your-project/.agents/skills/
 アップストリームの更新を追跡したい、より大きなプロジェクトへのベンダリング用:
 
 ```bash
-git submodule add https://github.com/ConardLi/garden-skills.git vendor/garden-skills
-ln -s ../../vendor/garden-skills/skills/web-design-engineer .claude/skills/web-design-engineer
+git submodule add https://github.com/dctongsheng/douge-skills.git vendor/douge-skills
+ln -s ../../vendor/douge-skills/skills/web-design-engineer .claude/skills/web-design-engineer
 ```
 
 再現性のためにリリースタグに固定:
 
 ```bash
-cd vendor/garden-skills
+cd vendor/douge-skills
 git checkout web-design-engineer-v1.0.0
 ```
 
@@ -334,8 +334,8 @@ git checkout web-design-engineer-v1.0.0
 クイックオリエンテーション:
 
 ```bash
-git clone https://github.com/ConardLi/garden-skills.git
-cd garden-skills
+git clone https://github.com/dctongsheng/douge-skills.git
+cd douge-skills
 npm run list      # すべてのスキル + マニフェストステータスを表示
 npm run validate  # CI がすべての PR で実行するのと同じチェック
 ```
@@ -354,4 +354,4 @@ npm run validate  # CI がすべての PR で実行するのと同じチェッ�
 
 ## ライセンス
 
-[MIT](./LICENSE) © [ConardLi](https://github.com/ConardLi)
+[MIT](./LICENSE) © [dctongsheng](https://github.com/dctongsheng)
