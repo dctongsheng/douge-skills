@@ -71,9 +71,7 @@ tooling is pure ESM Node, zero deps.
 ├── .claude-plugin/
 │   └── marketplace.json                 ← Claude Code plugin marketplace manifest
 │
-├── demo/                                ← live, openable demos
 ├── dist/                                ← shared README assets + reference materials
-├── website/                             ← standalone showcase websites
 │
 ├── package.json                         ← maintainer scripts (no runtime deps)
 ├── README.md / README.zh-CN.md / README.ja-JP.md ← user-facing collection index

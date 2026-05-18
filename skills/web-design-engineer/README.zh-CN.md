@@ -100,37 +100,6 @@ your-project/
 
 ---
 
-## 示例
-
-仓库的 [`demo/web-design-demo/`](../../demo/web-design-demo) 目录包含使用相同提示词、分别在有 Skill 和无 Skill 条件下生成的页面对比。打开 [`demo/web-design-demo/demo2/index.html`](../../demo/web-design-demo/demo2/index.html) 查看对比展示页。
-
-### Demo 1：太空探索博物馆
-
-**提示词：** *"帮我做一个'太空探索博物馆'的线上展览首页——全屏 Hero、4 个核心展览介绍、一个至少 6 个节点的时间线、参观预约 CTA、页脚。整体风格要沉浸感强、有宇宙的深邃感。"*
-
-| | 无 Skill | 有 Skill |
-|---|---|---|
-| **文件** | `demo/web-design-demo/demo2/demo1.html` | `demo/web-design-demo/demo2/demo1-with-skill.html` |
-| **色彩系统** | 硬编码 hex 值（#7cf0ff, #b388ff） | 基于 oklch 的 token 系统，使用 CSS 自定义属性 |
-| **字体** | Orbitron + Noto Serif SC | Instrument Serif + Space Grotesk + JetBrains Mono |
-| **布局** | 标准落地页结构 | 杂志编辑式布局，grid 组合排版 |
-| **细节** | 大量发光效果、霓虹渐变 | 克制的色彩方案、字体层级、装饰性数据元素 |
-| **整体感受** | 热情的初级设计师 | 有经验的设计总监 |
-
-### Demo 2：摄影师作品集
-
-**提示词：** *"帮我做一个独立摄影师的个人作品集网站首页。"*
-
-| | 有 Skill |
-|---|---|
-| **文件** | `demo/web-design-demo/demo2/demo2-with-skill.html` |
-| **角色塑造** | 虚构了北欧摄影师 "Mira Høst"，设计了一整套视觉身份 |
-| **配色** | 暖纸色浅底（#f2efe8）+ 墨色深文（#161513）—— 极度克制的双色调 |
-| **字体** | Instrument Serif（展示标题）+ Space Grotesk（界面）, 大量使用斜体 |
-| **布局** | 杂志编排式结构，编号分节、不对称网格、侧边竖排文字 |
-| **动效** | Hero 图片的慢速 Ken Burns 动画（24秒周期），胶片噪点纹理叠加 |
-| **导航** | `mix-blend-mode: difference` 顶栏 —— 在深浅背景间无缝过渡 |
-
 > 启发本 Skill 的 Claude Design 原始系统提示词保留在 [`dist/prompt/claude-design-system-prompt.md`](../../dist/prompt/claude-design-system-prompt.md)。
 
 ---

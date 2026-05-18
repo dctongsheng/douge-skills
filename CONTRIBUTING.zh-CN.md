@@ -69,9 +69,7 @@ npm run validate  # 跑一遍和 PR CI 完全一样的检查
 ├── .claude-plugin/
 │   └── marketplace.json                 ← Claude Code 插件市场清单
 │
-├── demo/                                ← 可直接打开的演示
 ├── dist/                                ← 共享 README 素材 + 参考资料
-├── website/                             ← 独立展示网站
 │
 ├── package.json                         ← 维护者脚本（无运行时依赖）
 ├── README.md / README.zh-CN.md / README.ja-JP.md ← 用户向集合首页

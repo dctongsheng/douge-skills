@@ -71,9 +71,7 @@ npm run validate  # CI がすべての PR で実行するのと同じチェッ�
 ├── .claude-plugin/
 │   └── marketplace.json                 ← Claude Code プラグインマーケットプレイスのマニフェスト
 │
-├── demo/                                ← ライブで開けるデモ
 ├── dist/                                ← 共有 README アセット + リファレンスマテリアル
-├── website/                             ← スタンドアロンのショーケースウェブサイト
 │
 ├── package.json                         ← メンテナースクリプト（ランタイム依存なし）
 ├── README.md / README.zh-CN.md / README.ja-JP.md ← ユーザー向けコレクションインデックス

@@ -100,37 +100,6 @@ The agent will automatically pick up the skill when your request involves visual
 
 ---
 
-## Demos
-
-The repository's [`demo/web-design-demo/`](../../demo/web-design-demo) directory contains side-by-side comparisons of pages generated with and without this skill, using identical prompts. Open [`demo/web-design-demo/demo2/index.html`](../../demo/web-design-demo/demo2/index.html) for a side-by-side viewer.
-
-### Demo 1: Space Exploration Museum
-
-**Prompt:** *"Build a homepage for a fictional 'Space Exploration Museum' — full-screen hero, 4 exhibition sections, a timeline with 6+ milestones, a booking CTA, and a footer. Deep, immersive, cosmic feel."*
-
-| | Without Skill | With Skill |
-|---|---|---|
-| **File** | `demo/web-design-demo/demo2/demo1.html` | `demo/web-design-demo/demo2/demo1-with-skill.html` |
-| **Color system** | Hardcoded hex values (#7cf0ff, #b388ff) | oklch-based token system with CSS custom properties |
-| **Typography** | Orbitron + Noto Serif SC | Instrument Serif + Space Grotesk + JetBrains Mono |
-| **Layout** | Standard landing-page structure | Editorial magazine-style layout with grid compositions |
-| **Details** | Heavy glow effects, neon gradients | Restrained palette, typographic hierarchy, decorative data elements |
-| **Overall feel** | Enthusiastic junior designer | Experienced design director |
-
-### Demo 2: Photographer Portfolio
-
-**Prompt:** *"Build a homepage for an independent photographer's portfolio."*
-
-| | With Skill |
-|---|---|
-| **File** | `demo/web-design-demo/demo2/demo2-with-skill.html` |
-| **Character** | Creates a fictional Nordic photographer "Mira Høst" with a complete visual identity |
-| **Color** | Paper-warm light (#f2efe8) + ink-dark (#161513) — extremely restrained two-tone palette |
-| **Typography** | Instrument Serif (display) + Space Grotesk (UI) with extensive italic usage |
-| **Layout** | Magazine-editorial structure with numbered sections, asymmetric grids, side rails |
-| **Motion** | Slow Ken Burns on hero image (24s cycle), film-grain texture overlay |
-| **Navigation** | `mix-blend-mode: difference` masthead — seamless across light/dark sections |
-
 > The original Claude Design system prompt that inspired this skill is preserved at [`dist/prompt/claude-design-system-prompt.md`](../../dist/prompt/claude-design-system-prompt.md).
 
 ---
