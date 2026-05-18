@@ -1,6 +1,6 @@
 {
   "name": "hello-world",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "category": "Getting Started / Demo",
   "description": "Minimal starter skill that greets the user and runs a tiny hello-world script to verify Agent Skills wiring.",
   "homepage": "https://github.com/dctongsheng/douge-skills/tree/main/skills/hello-world",
