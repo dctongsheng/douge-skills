@@ -32,6 +32,16 @@
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+<a href="#html-ppt"><strong>html-ppt</strong></a>
+<br/><sub>HTML プレゼンテーション / スライド</sub>
+</td>
+<td width="50%" valign="top">
+<a href="#lifeos-agent-pack-builder"><strong>lifeos-agent-pack-builder</strong></a>
+<br/><sub>LifeOS Agent Packs</sub>
+</td>
+</tr>
+<tr>
 <td colspan="2" align="center" valign="top">
 <a href="#hello-world"><strong>hello-world</strong></a>
 <br/><sub>入門 / Hello World</sub>
@@ -42,7 +52,7 @@
 [![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#コントリビュート)
-[![Skills count](https://img.shields.io/badge/skills-5-orange?style=flat-square)](#skills-gallery)
+[![Skills count](https://img.shields.io/badge/skills-7-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
 
 [English](./README.md) · [中文文档](./README.zh-CN.md) · [日本語](./README.ja-JP.md)
@@ -78,6 +88,27 @@
 - 再利用可能なステージプリミティブと録画ガイダンスを備えた Vite + React + TypeScript プロジェクトのスキャフォールド
 
 リンク: [README](./skills/web-video-presentation/README.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[Download v1.1.5 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
+
+---
+
+### [`html-ppt`](./skills/html-ppt)
+
+**カテゴリ:** Presentation / HTML Slides  
+**用途:** professional static HTML slide decks, pitch decks, tech talks, reports, presenter-mode talks, and Xiaohongshu-style multi-page visual posts.
+
+`html-ppt` is a pure static HTML/CSS/JS presentation studio with rich themes,
+single-page layouts, full-deck templates, CSS animations, canvas FX, keyboard
+navigation, and a true presenter mode with current/next/script/timer cards.
+
+主な特徴:
+
+- 36 theme files, 31 single-page layouts, and 15 full-deck templates
+- Presenter mode with pixel-perfect slide previews, speaker script, and timer
+- CSS animations plus canvas FX for reveal-style visual energy
+- Static HTML output with no build step required
+- Render helper for exporting slides to PNG
+
+リンク: [README](./skills/html-ppt/README.md) · [中文 README](./skills/html-ppt/README.zh-CN.md) · [SKILL.md](./skills/html-ppt/SKILL.md) · <!-- DOWNLOAD:html-ppt:start -->_（まだリリースされていません）_<!-- DOWNLOAD:html-ppt:end -->
 
 ---
 
@@ -144,6 +175,27 @@
 
 ---
 
+### [`lifeos-agent-pack-builder`](./skills/lifeos-agent-pack-builder)
+
+**カテゴリ:** LifeOS / Agent Packs  
+**用途:** creating LifeOS character Agent Packs, modernizing fictional or historical source material into original personas, and importing generated packs into LifeOS.
+
+`lifeos-agent-pack-builder` guides an agent through source research, pack
+writing, `AgentPackConfig` JSON validation, import into a local LifeOS server,
+and verification that the matching Pack and World exist.
+
+主な特徴:
+
+- Turns public research or source material into a modern LifeOS identity
+- Generates `docs/agent-packs/*.md` with summaries, prompts, and JSON config
+- Includes a compact Agent Pack field checklist
+- Provides an import helper script for `/packs` and matching World creation
+- Emphasizes source citation, original identity design, and verification
+
+リンク: [README](./skills/lifeos-agent-pack-builder/README.md) · [中文 README](./skills/lifeos-agent-pack-builder/README.zh-CN.md) · [SKILL.md](./skills/lifeos-agent-pack-builder/SKILL.md) · <!-- DOWNLOAD:lifeos-agent-pack-builder:start -->_（まだリリースされていません）_<!-- DOWNLOAD:lifeos-agent-pack-builder:end -->
+
+---
+
 ### [`hello-world`](./skills/hello-world)
 
 **カテゴリ:** 入門 / デモ  
@@ -184,7 +236,7 @@
 自動検出し、スキルを適切なディレクトリにドロップする標準的な [`npx skills` CLI](https://www.npmjs.com/package/skills) を使用します。
 
 ```bash
-# 5 つのスキルすべてをインストール（最新）
+# 7 つのスキルすべてをインストール（最新）
 npx skills add dctongsheng/douge-skills
 
 # 1 つのスキルだけをインストール（最新）

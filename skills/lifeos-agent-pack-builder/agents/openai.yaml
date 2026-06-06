@@ -1,0 +1,4 @@
+interface:
+  display_name: "LifeOS Agent Pack Builder"
+  short_description: "Build and import LifeOS character packs"
+  default_prompt: "Use $lifeos-agent-pack-builder to research a character, write a LifeOS Agent Pack Markdown file, and import it into the local LifeOS database."

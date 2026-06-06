@@ -32,6 +32,16 @@
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+<a href="#html-ppt"><strong>html-ppt</strong></a>
+<br/><sub>HTML 演示 / 幻灯片</sub>
+</td>
+<td width="50%" valign="top">
+<a href="#lifeos-agent-pack-builder"><strong>lifeos-agent-pack-builder</strong></a>
+<br/><sub>LifeOS Agent Packs</sub>
+</td>
+</tr>
+<tr>
 <td colspan="2" align="center" valign="top">
 <a href="#hello-world"><strong>hello-world</strong></a>
 <br/><sub>入门示例 / Hello World</sub>
@@ -42,7 +52,7 @@
 [![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#贡献)
-[![Skills count](https://img.shields.io/badge/skills-5-orange?style=flat-square)](#skills-gallery)
+[![Skills count](https://img.shields.io/badge/skills-7-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
 
 [English](./README.md) · [中文文档](./README.zh-CN.md) · [日本語](./README.ja-JP.md)
@@ -78,6 +88,25 @@
 - 脚手架产出 Vite + React + TypeScript 项目，并附带舞台原语与录屏指南
 
 链接：[README](./skills/web-video-presentation/README.zh-CN.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[下载 v1.1.5 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
+
+---
+
+### [`html-ppt`](./skills/html-ppt)
+
+**类别：** HTML 演示 / 幻灯片  
+**适合：** 专业静态 HTML PPT、pitch deck、技术分享、汇报、带演讲者模式的 talk，以及小红书图文式多页内容。
+
+`html-ppt` 是一个纯静态 HTML/CSS/JS 演示工作室，内置丰富主题、单页布局、完整 deck 模板、CSS 动画、canvas FX、键盘导航，以及包含当前页/下一页/逐字稿/计时器卡片的演讲者模式。
+
+亮点：
+
+- 36 个主题、31 个单页布局和 15 个完整 deck 模板
+- 演讲者模式包含像素级预览、逐字稿和计时器
+- 支持 CSS 动画与 canvas FX，让 reveal 效果更丰富
+- 输出为静态 HTML，无需构建步骤
+- 提供将幻灯片渲染为 PNG 的辅助脚本
+
+链接：[README](./skills/html-ppt/README.zh-CN.md) · [English README](./skills/html-ppt/README.md) · [SKILL.md](./skills/html-ppt/SKILL.md) · <!-- DOWNLOAD:html-ppt:start -->_（暂未发布）_<!-- DOWNLOAD:html-ppt:end -->
 
 ---
 
@@ -144,6 +173,25 @@
 
 ---
 
+### [`lifeos-agent-pack-builder`](./skills/lifeos-agent-pack-builder)
+
+**类别：** LifeOS / Agent Packs  
+**适合：** 创建 LifeOS 人物 Agent Pack，把虚构角色或历史素材现代化为原创 persona，并导入 LifeOS。
+
+`lifeos-agent-pack-builder` 会指导 Agent 完成素材研究、Pack 文档撰写、`AgentPackConfig` JSON 校验、导入本地 LifeOS 服务，以及确认对应 Pack 和 World 已创建。
+
+亮点：
+
+- 将公开研究或角色素材转化为现代 LifeOS 身份
+- 生成包含素材摘要、提示词和 JSON 配置的 `docs/agent-packs/*.md`
+- 内置紧凑的 Agent Pack 字段检查清单
+- 提供导入 `/packs` 并创建匹配 World 的辅助脚本
+- 强调来源引用、原创身份设计与最终验证
+
+链接：[README](./skills/lifeos-agent-pack-builder/README.zh-CN.md) · [English README](./skills/lifeos-agent-pack-builder/README.md) · [SKILL.md](./skills/lifeos-agent-pack-builder/SKILL.md) · <!-- DOWNLOAD:lifeos-agent-pack-builder:start -->_（暂未发布）_<!-- DOWNLOAD:lifeos-agent-pack-builder:end -->
+
+---
+
 ### [`hello-world`](./skills/hello-world)
 
 **类别：** 入门 / 示例  
@@ -185,7 +233,7 @@
 的 Agent（Claude Code / Cursor / Codex / …）并把 Skill 放到对的目录。
 
 ```bash
-# 一次装上整个仓库（5 个 Skill），最新
+# 一次装上整个仓库（7 个 Skill），最新
 npx skills add dctongsheng/douge-skills
 
 # 只装某一个 Skill，最新

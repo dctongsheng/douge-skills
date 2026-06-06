@@ -32,6 +32,16 @@
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+<a href="#html-ppt"><strong>html-ppt</strong></a>
+<br/><sub>HTML presentations / slides</sub>
+</td>
+<td width="50%" valign="top">
+<a href="#lifeos-agent-pack-builder"><strong>lifeos-agent-pack-builder</strong></a>
+<br/><sub>LifeOS Agent Packs</sub>
+</td>
+</tr>
+<tr>
 <td colspan="2" align="center" valign="top">
 <a href="#hello-world"><strong>hello-world</strong></a>
 <br/><sub>Getting started / Hello World</sub>
@@ -42,7 +52,7 @@
 [![License: MIT](https://img.shields.io/github/license/dctongsheng/douge-skills?style=flat-square&color=blue)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/dctongsheng/douge-skills?style=flat-square)](https://github.com/dctongsheng/douge-skills/stargazers)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](#contributing)
-[![Skills count](https://img.shields.io/badge/skills-5-orange?style=flat-square)](#skills-gallery)
+[![Skills count](https://img.shields.io/badge/skills-7-orange?style=flat-square)](#skills-gallery)
 [![Spec](https://img.shields.io/badge/spec-SKILL.md-black?style=flat-square)](https://agentskills.io)
 
 [English](./README.md) · [中文文档](./README.zh-CN.md) · [日本語](./README.ja-JP.md)
@@ -78,6 +88,27 @@ Highlights:
 - Scaffolded Vite + React + TypeScript project with reusable stage primitives and recording guidance
 
 Links: [README](./skills/web-video-presentation/README.md) · [SKILL.md](./skills/web-video-presentation/SKILL.md) · <!-- DOWNLOAD:web-video-presentation:start -->[Download v1.1.5 .zip](https://github.com/dctongsheng/douge-skills/releases/download/web-video-presentation-v1.1.5/web-video-presentation-1.1.5.zip)<!-- DOWNLOAD:web-video-presentation:end -->
+
+---
+
+### [`html-ppt`](./skills/html-ppt)
+
+**Category:** Presentation / HTML Slides  
+**Best for:** professional static HTML slide decks, pitch decks, tech talks, reports, presenter-mode talks, and Xiaohongshu-style multi-page visual posts.
+
+`html-ppt` is a pure static HTML/CSS/JS presentation studio with rich themes,
+single-page layouts, full-deck templates, CSS animations, canvas FX, keyboard
+navigation, and a true presenter mode with current/next/script/timer cards.
+
+Highlights:
+
+- 36 theme files, 31 single-page layouts, and 15 full-deck templates
+- Presenter mode with pixel-perfect slide previews, speaker script, and timer
+- CSS animations plus canvas FX for reveal-style visual energy
+- Static HTML output with no build step required
+- Render helper for exporting slides to PNG
+
+Links: [README](./skills/html-ppt/README.md) · [中文 README](./skills/html-ppt/README.zh-CN.md) · [SKILL.md](./skills/html-ppt/SKILL.md) · <!-- DOWNLOAD:html-ppt:start -->_(no release yet — coming soon)_<!-- DOWNLOAD:html-ppt:end -->
 
 ---
 
@@ -144,6 +175,27 @@ Links: [README](./skills/kb-retriever/README.md) · [SKILL.md](./skills/kb-retri
 
 ---
 
+### [`lifeos-agent-pack-builder`](./skills/lifeos-agent-pack-builder)
+
+**Category:** LifeOS / Agent Packs  
+**Best for:** creating LifeOS character Agent Packs, modernizing fictional or historical source material into original personas, and importing generated packs into LifeOS.
+
+`lifeos-agent-pack-builder` guides an agent through source research, pack
+writing, `AgentPackConfig` JSON validation, import into a local LifeOS server,
+and verification that the matching Pack and World exist.
+
+Highlights:
+
+- Turns public research or source material into a modern LifeOS identity
+- Generates `docs/agent-packs/*.md` with summaries, prompts, and JSON config
+- Includes a compact Agent Pack field checklist
+- Provides an import helper script for `/packs` and matching World creation
+- Emphasizes source citation, original identity design, and verification
+
+Links: [README](./skills/lifeos-agent-pack-builder/README.md) · [中文 README](./skills/lifeos-agent-pack-builder/README.zh-CN.md) · [SKILL.md](./skills/lifeos-agent-pack-builder/SKILL.md) · <!-- DOWNLOAD:lifeos-agent-pack-builder:start -->_(no release yet — coming soon)_<!-- DOWNLOAD:lifeos-agent-pack-builder:end -->
+
+---
+
 ### [`hello-world`](./skills/hello-world)
 
 **Category:** Getting started / Demo  
@@ -185,7 +237,7 @@ which auto-detects your agent (Claude Code, Cursor, Codex, etc.) and drops the
 skill into the right directory.
 
 ```bash
-# Install all five skills (latest)
+# Install all seven skills (latest)
 npx skills add dctongsheng/douge-skills
 
 # Install just one skill (latest)

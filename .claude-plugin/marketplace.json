@@ -4,17 +4,18 @@
     "name": "dctongsheng"
   },
   "metadata": {
-    "description": "Douge Skills — agent skills for web video presentations, visual web design, local knowledge-base retrieval, GPT Image 2 image generation, and hello-world starter demo.",
+    "description": "Douge Skills — agent skills for web video presentations, HTML slide decks, visual web design, local knowledge-base retrieval, GPT Image 2 image generation, LifeOS Agent Packs, and hello-world starter demo.",
     "version": "0.4.1"
   },
   "plugins": [
     {
       "name": "presentation-skills",
-      "description": "Skills for click-driven web video presentations and screen-recorded explainers.",
+      "description": "Skills for click-driven web video presentations, HTML slide decks, and screen-recorded explainers.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/web-video-presentation"
+        "./skills/web-video-presentation",
+        "./skills/html-ppt"
       ]
     },
     {
@@ -42,6 +43,15 @@
       "strict": false,
       "skills": [
         "./skills/gpt-image-2"
+      ]
+    },
+    {
+      "name": "lifeos-skills",
+      "description": "Skills for creating, validating, importing, and verifying LifeOS Agent Packs and matching Worlds.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/lifeos-agent-pack-builder"
       ]
     },
     {

@@ -1,0 +1,15 @@
+{
+  "name": "lifeos-agent-pack-builder",
+  "version": "0.1.0",
+  "category": "LifeOS / Agent Packs",
+  "description": "Create and import LifeOS Platform character Agent Packs from public research, local templates, and structured AgentPackConfig JSON.",
+  "homepage": "https://github.com/dctongsheng/douge-skills/tree/main/skills/lifeos-agent-pack-builder",
+  "compat": [
+    "claude-code",
+    "claude-ai",
+    "cursor",
+    "codex-cli",
+    "gemini-cli",
+    "opencode"
+  ]
+}
